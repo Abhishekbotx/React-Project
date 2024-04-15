@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "youtube youtube content1"
+    "youtube youtube content2";
+}
+
+.youtube {
+  grid-area: youtube; /* Assigning grid area to YouTube */
+}
+
+.content1 {
+  grid-area: content1; /* Assigning grid area to content */
+}
+.content2 {
+  grid-area: content2; /* Assigning grid area to content */
+}
