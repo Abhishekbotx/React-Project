@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' overflow-hidden h-auto bg-slate-700 flex flex-col items-center font-bold '>
+    <div className=' overflow-hidden h-auto  flex flex-col items-center font-bold '>
         <p className='mt-20 text-zinc-400 text-7xl font-weight:900'>We help grow your Podcast </p>
         <p className='text-zinc-400 pt-4 text-7xl'>to attract qualified leads and </p>
         <p className='pt-4 text-7xl text-fuchsia-500'>Increase Revenue </p>

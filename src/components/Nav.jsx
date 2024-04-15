@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Nav() {
   return (
-    <div className='py-4  px-10 h-auto items-center flex justify-around w-full bg-slate-800'>
+    <div className='py-4  px-10 h-auto items-center flex justify-around w-full '>
         <div className='px-8 rounded-md py-1 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ...'>Logo</div>
         <nav className='flex gap-5 font-mono space-x-0'>
         <NavLink style={(e) => {
